@@ -14,9 +14,9 @@ O lexema a1 é classificado como um id.<br />
 
 A sua tarefa é dada um código-fonte encontre quantas vezes um dado lexema aparece no código.<br />
 
-Por exemplo,
+Por exemplo,<br />
 
-def counting_lexemes(code, lexeme):
+def counting_lexemes(code, lexeme):<br />
   ### \# Complete esse código
 
 code = code = """ <br />
