@@ -1,6 +1,6 @@
 # Encontrando lexemas
 
-Durante o processo de análise léxica, o código-fonte do programa é lido e separado em palavras que chamamos lexemas. Em seguida, esses lexemas são classificados<br /> em tokens. Essa sequência de tokens é enviada para ser analisada pela análise sintática.<br />
+Durante o processo de análise léxica, o código-fonte do programa é lido e separado em palavras que chamamos lexemas. Em seguida, esses lexemas são classificados em tokens. Essa sequência de tokens é enviada para ser analisada pela análise sintática.<br />
 
 Considere o seguinte código:<br />
 
