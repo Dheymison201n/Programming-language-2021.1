@@ -10,9 +10,9 @@ int main(){ <br />
   a2 = a1 + 5; <br />
 }<br />
 
-O lexema a1 é classificado como um id.
+O lexema a1 é classificado como um id.<br />
 
-A sua tarefa é dada um código-fonte encontre quantas vezes um dado lexema aparece no código.
+A sua tarefa é dada um código-fonte encontre quantas vezes um dado lexema aparece no código.<br />
 
 Por exemplo,
 
@@ -26,10 +26,10 @@ int main(){ <br />
   a2 = a1 + 5;  <br />
 } <br />
 """ <br />
-assert ( counting_lexemes(code, "a1") == 4 )
+assert ( counting_lexemes(code, "a1") == 4 )<br />
 
-code = input()
-lexeme = input()
-print ( counting_lexemes(code, lexeme))
+code = input()<br />
+lexeme = input()<br />
+print ( counting_lexemes(code, lexeme))<br />
 
 Use a função find(sub, [ start [, end]]) que retorna o índice mais baixo na string onde a substring sub é encontrado dentro da fatia s[start:end]. Argumentos opcionais como start e end são interpretados como na notação de fatiamento. Retorna -1 se sub não for localizado.
