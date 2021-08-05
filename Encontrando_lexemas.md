@@ -17,7 +17,7 @@ A sua tarefa é dada um código-fonte encontre quantas vezes um dado lexema apar
 Por exemplo,
 
 def counting_lexemes(code, lexeme):
- - ### \# Complete esse código
+  ### \# Complete esse código
 
 code = code = """<br />
 int main(){<br />
