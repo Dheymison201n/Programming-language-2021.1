@@ -17,15 +17,15 @@ A sua tarefa é dada um código-fonte encontre quantas vezes um dado lexema apar
 Por exemplo,
 
 def counting_lexemes(code, lexeme):
-  \# Complete esse código
+ - ### \# Complete esse código
 
-code = code = """< /br>
-int main(){< /br>
-  int a1, a2;< /br>
-  a1 = a1 + 2;  < /br>
-  a2 = a1 + 5;  < /br>
-}< /br>
-""" < /br>
+code = code = """<br />
+int main(){<br />
+  int a1, a2;<br />
+  a1 = a1 + 2;  <br />
+  a2 = a1 + 5;  <br />
+}<br />
+""" <br />
 assert ( counting_lexemes(code, "a1") == 4 )
 
 code = input()
