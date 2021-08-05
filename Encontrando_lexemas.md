@@ -1,14 +1,14 @@
 # Encontrando lexemas
 
-Durante o processo de análise léxica, o código-fonte do programa é lido e separado em palavras que chamamos lexemas. Em seguida, esses lexemas são classificados em tokens. Essa sequência de tokens é enviada para ser analisada pela análise sintática.
+Durante o processo de análise léxica, o código-fonte do programa é lido e separado em palavras que chamamos lexemas. Em seguida, esses lexemas são classificados<br /> em tokens. Essa sequência de tokens é enviada para ser analisada pela análise sintática.<br />
 
-Considere o seguinte código:
+Considere o seguinte código:<br />
 
-int main(){
-  int a1, a2;
-  a1 = a1 + 2;
-  a2 = a1 + 5;  
-}
+int main(){ <br />
+  int a1, a2; <br />
+  a1 = a1 + 2; <br />
+  a2 = a1 + 5; <br />
+}<br />
 
 O lexema a1 é classificado como um id.
 
@@ -19,12 +19,12 @@ Por exemplo,
 def counting_lexemes(code, lexeme):
   ### \# Complete esse código
 
-code = code = """<br />
-int main(){<br />
-  int a1, a2;<br />
+code = code = """ <br />
+int main(){ <br />
+  int a1, a2; <br />
   a1 = a1 + 2;  <br />
   a2 = a1 + 5;  <br />
-}<br />
+} <br />
 """ <br />
 assert ( counting_lexemes(code, "a1") == 4 )
 
